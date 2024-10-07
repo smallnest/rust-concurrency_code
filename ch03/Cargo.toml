@@ -1,0 +1,7 @@
+[package]
+name = "ch03"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+thread-priority = "1.1.0"
