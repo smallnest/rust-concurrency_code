@@ -1,7 +1,7 @@
 #![feature(test)]
 extern crate test;
 
-use ch01::{merge_sort_concurrent, merge_sort_serial,merge_sort_async};
+use ch02::{merge_sort_concurrent, merge_sort_serial,merge_sort_async};
 use rand::prelude::*;
 use tokio::runtime::Runtime;
 

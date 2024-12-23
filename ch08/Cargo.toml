@@ -1,7 +1,8 @@
 [package]
-name = "ch07"
+name = "ch08"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
+
 
 [dependencies]
 send_wrapper = "0.6.0"

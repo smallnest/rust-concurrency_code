@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use ch01::{merge_sort_concurrent, merge_sort_serial, merge_sort_async};
+    use ch02::{merge_sort_concurrent, merge_sort_serial, merge_sort_async};
 
     #[test]
     fn test_merge_sort_concurrent() {
