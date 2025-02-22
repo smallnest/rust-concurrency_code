@@ -1,0 +1,10 @@
+[package]
+name = "ch17"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures-time = "3.0.0"
+pin-project = "1.1.7"
+futures = {version = "0.3.31", features = ["compat","executor"]}
+tokio = {version = "1.43.0",features = ["full"]}
