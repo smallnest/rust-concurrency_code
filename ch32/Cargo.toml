@@ -1,0 +1,11 @@
+[package]
+name = "ch32"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+arc-swap = "1.7.1"
+boxcar = "0.2.11"
+lockfree = "0.5.1"
+sharded-slab = "0.1.7"
+slab = "0.4.9"
