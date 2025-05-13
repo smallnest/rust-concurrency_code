@@ -1,0 +1,16 @@
+[package]
+name = "ch33"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+loom = { version = "0.7.2", features = ["checkpoint", "futures", "pin-utils"] }
+shuttle = "0.8.0"
+tokio = { version = "1.45.0", features = ["full"] }
+
+[dev-dependencies]
+# 添加测试所需的依赖，例如 `tokio` 或 `async-std`，如果需要的话
+
+[lib]
+name = "ch33"
+path = "src/lib.rs"
